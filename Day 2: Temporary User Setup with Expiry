@@ -1,0 +1,5 @@
+# Create a user named ammar on App Server 2 in Stratos Datacenter. Set the expiry date to 2023-12-07.
+1. ssh tony@173.21.3.20
+2. sudo useradd -e 2023-12-07 ammar
+3. getent passwd anita
+4. sudo chage -l ammar
