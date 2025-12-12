@@ -1,4 +1,0 @@
-# Create a user in Linux with non-interactive shell and verify:
-ssh tony@173.21.3.20
-sudo useradd -s /sbin/nologin anita
-getent passwd anita
