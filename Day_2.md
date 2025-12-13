@@ -9,6 +9,6 @@ As part of the temporary assignment to the Nautilus project, a developer named a
 ```sh
 ssh tony@173.21.3.20
 sudo useradd -e 2023-12-07 ammar
-getent passwd anita
+getent passwd ammar
 sudo chage -l ammar
 ```
