@@ -10,5 +10,10 @@ Disregard the current status of SELinux via the command line; the final status a
 ## Solution
 ```sh
 sudo yum install -y selinux-policy selinux-policy-targeted policycoreutils
-sudo vi /etc/selinux/config, SELINUX=disabled
 ```
+Change the confguration settings in the following path
+```sh
+sudo vi /etc/selinux/config
+```
+ > Change the setting -> SELINUX=disabled
+
